@@ -1,0 +1,457 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+header{
+   width: 100%;
+   height: 70px; 
+   position: fixed;
+   top: 0;
+   background-color: #fff;
+   z-index: 1;
+}
+header div{
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    margin-left: 250px;
+    padding: 18px;
+}
+header .nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 344px;
+}
+header .nav ul{
+    list-style: none;
+}
+header .nav ul li{
+    float: left;
+    padding: 10px 30px;
+}
+header .nav ul li a{
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+header .nav ul li a:hover{
+    color: #7f97ff;
+}
+.checkbtn{
+    display: none;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.9);
+    float: right;
+    line-height: 80px;
+    margin-right: -170px;
+}
+#check{
+    display: none;
+}
+/*section one start*/
+.section1{
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 665px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 75px;
+}
+.half1, .half2{
+    width: 50%;
+}
+.half1{
+    margin-left: 247px;
+    margin-bottom: 120px;
+}
+.half2{
+    padding-right: 160px;
+    margin-top: 50px;
+}
+.half2 img{
+    max-width: 100%;
+    height: auto;
+}
+.half1 h3{
+    font-weight: normal;
+    font-size: 20px;
+}
+.half1 h1{
+    font-size: 60px;
+    font-family: cursive;
+}
+.half1 p{
+    color: rgba(78, 78, 78, 0.7);
+}
+.half1 input{
+    padding: 8px 20px;
+    background-color: #8393ff;
+    outline: none;
+    color: #fff;
+    border: 1px solid #8393ff;
+    font-size: 15px;
+    cursor: pointer;
+}
+.half1 input:hover{
+    box-shadow: 5px 10px 30px rgba(130, 147, 255, 0.9);
+    transition: all 0.5s ease-in 0.1s;
+    outline: none;
+}
+/*section one end*/
+
+/*section two start*/
+.section2{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2 div{
+    width: 40%;
+    margin: 0px auto;
+}
+.section2 img{
+    max-width: 90%;
+    height: auto;
+}
+.section2 .img2{
+    padding-left: 150px;
+}
+.text2 h3{
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 15px;
+    font-family: arial;
+}
+.text2 h1{
+    font-weight: bold;
+    font-size: 40px;
+    font-family: cursive;
+}
+.text2 p{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    width: 75%;
+    font-family: arial;
+}
+.text2 input{
+    font-size: 14px;
+    padding: 13px 20px;
+    outline: none;
+    color: #fff;
+    background-color: #8293ff;
+    border: none;
+    cursor: pointer;
+}
+.text2 input:hover{
+    box-shadow: 5px 10px 30px rgba(130, 147, 255, 0.9);
+    transition: all 0.5s ease-in 0.1s;
+    outline: none;
+}
+/*section two end*/
+
+/*section three start*/
+.section3{
+    width: 100%;
+    height: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+.fisrttext h1{
+    font-size: 40px;
+    line-height: 10px;
+    font-family: cursive;
+}
+.fisrttext p{
+    width: 650px;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0 auto;
+}
+.service{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+.ser1, ser2{
+    width: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.ser2{
+    padding-top: 30px;
+    cursor: pointer;
+}
+.ser1 div, .ser2 div{
+    width: 32%;
+    float: left;
+    padding: 5px;
+    margin: 0 auto;
+}
+.service i{
+    font-size: 45px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.service h1{
+    color: rgba(0, 0, 0, 0.9);
+    font-family: cursive;
+}
+.service p{
+    color: rgba(0, 0, 0, 0.6);
+    font-family: arial;
+}
+.ser1 div:hover{
+    background-color: #8293ff;
+}
+.ser2 div:hover{
+    background-color: #8293ff;
+}
+.ser2 div:hover p{
+    color: white;
+}
+.ser2 div:hover h1{
+    color: #fff;
+}
+.ser2 div:hover i{
+    color: #fff;
+}
+.ser1 div:hover p{
+    color: white;
+}
+.ser1 div:hover h1{
+    color: #fff;
+}
+.ser1 div:hover i{
+    color: #fff;
+}
+/*section three end*/
+/*section four start*/
+.sec4{
+    width: 100%;
+    height: 300px;
+    background-color: #8293ff;
+    font-size: 20px;
+}
+.sec4 div{
+    float: left;
+    width: 20%;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+.sec4 h1{
+    text-align: center;
+    color: #fff;
+}
+.sec4 p{
+    text-align: center;
+    color: #fff;
+}
+
+/*protfolio part start*/
+.section5{
+    width: 100%;
+    box-sizing: border-box;
+}
+.section5 .text3{
+    text-align: center;
+    padding: 100px 0;
+}
+.section5 .text3 h1{
+    font-family: cursive;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.9);
+}
+.section5 .text3 p{
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+.section5 .imgg{
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.section5 .imgg figure{
+    width: 340px;
+    height: 339px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 5%
+}
+.section5 .imgg h1{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
+.section5 .imgg p{
+    color: rgba(0, 0, 0, 0.7);
+    line-height: 0;
+    text-align: center;
+}
+.section5 figure{
+    background: linear-gradient(40deg, #8490ff 40%, #62bdfc 100%);
+    width: 340px;
+    height: 339px;
+    overflow: hidden;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.section5 figure:hover img{
+    opacity: 0.3;
+    transition: all 0.3s ease-in-out ;
+}
+/*protfolio part end*/
+/*pricing part start*/
+.section6{
+    width: 100%;
+    height: 700px;
+    padding-top: 50px;
+}
+.section6 .text-4{
+    text-align: center;
+    padding: 2% 0;
+}
+.section6 .text-4 h1{
+    font-size: 40px;
+    line-height: 0;
+    padding-top: 15px;
+}
+.section6 .text-4 p{
+    color: rgba(0, 0, 0, 0.7);
+}
+.section6 .card{
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.section6 .card1{
+    width: 300px;
+    height: 600px;
+    background-color: rgb(249, 249, 255);
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.section6 .card1 h1{
+    font-size: 50px;
+    padding-top: 8px;
+}
+.section6 .card1 .price{
+    font-size: 40px;
+}
+.section6 .card1 input{
+    outline: none;
+    background-color: #8293ff;
+    color: white;
+    font-size: 25px;
+    padding: 6px 60px;
+    font-weight: bold;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.section6 .card1:hover{
+    background-color: #8293ff;
+    color: white;
+    transition: all 0.25s ease-in;
+    transform: scale(1.05);
+    border: 1px solid rgba(130, 147, 255, 0.5);
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.5);
+}
+.section6 .card1:hover input{
+    color: rgba(0, 0, 0, 0.9);
+    background-color: white;
+}
+/*pricing part end*/
+/*Footer part start*/
+footer{
+    background-color: rgb(4, 9, 30);
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    margin-top: 200px;
+    color: white;
+}
+footer .foot{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+footer .foot .foot1 p{
+    color: rgba(255, 255, 255, 0.5);
+}
+footer .foot .foot1 input{
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 10px 150px 10px 10px;
+}
+footer .foot .foot1 button{
+    font-size: 18px;
+    color: #fff;
+    background-color: #8293ff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 15px;
+}
+footer .foot .foot1 img{
+    font-size: 15px;
+    cursor: pointer;
+    padding: 2px 5px;
+}
+footer .foot .foot1 img:hover{
+    color: #8293ff;
+}
+/*Footer part End*/
+
+@media (max-width:768px){
+    header{
+        width: 100%;
+        height: auto;
+    }
+    header .logo{
+        margin-left: 30px;
+        padding: 20px;
+    }
+    .checkbtn{
+       display: block; 
+    }
+    header .nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #f9f9ff;
+        top: 54px;
+        left: -200%;
+        transition: all .1s;
+    }
+    header .image{
+        width:30px;
+        height: 30px;
+    }
+    header .nav ul li{
+        line-height: 30px;
+        clear: both;
+        margin-top: 15px;
+    }
+    #chack:checked ~ ul{
+        left: 0;
+    }
+}
